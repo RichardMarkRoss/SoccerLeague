@@ -29,5 +29,19 @@ public class League {
         for(Player thePlayer2 : team2.playerArray){
             System.out.println(thePlayer2.playerName);
         }
+        Game currGame = new Game();
+        currGame.homeTeam = team1;
+        currGame.awayTeam = team2;
+
+        Goal goal1 = new Goal();
+        goal1.player = currGame.homeTeam.playerArray[2];
+        goal1.team = currGame.homeTeam;
+        goal1.theTime = 55;
+
+        Goal[] theGoal = {goal1};
+        currGame.goals = theGoal;
+
+            System.out.println("Goal scored after " + currGame.goals[0].theTime + " mins by " + currGame.goals[0].player.playerName + " of " + currGame.goals[0].team.teamName);
+        
     }
 }
