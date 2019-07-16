@@ -37,11 +37,19 @@ public class League {
         goal1.player = currGame.homeTeam.playerArray[2];
         goal1.team = currGame.homeTeam;
         goal1.theTime = 55;
+        Goal goal2 = new Goal();
+        goal2.player = currGame.homeTeam.playerArray[1];
+        goal2.team = currGame.homeTeam;
+        goal2.theTime = 20;
+        Goal goal3 = new Goal();
+        goal3.player = currGame.homeTeam.playerArray[0];
+        goal3.team = currGame.homeTeam;
+        goal3.theTime = 45;
 
-        Goal[] theGoal = {goal1};
+        Goal[] theGoal = {goal1, goal2, goal3};
         currGame.goals = theGoal;
-
-            System.out.println("Goal scored after " + currGame.goals[0].theTime + " mins by " + currGame.goals[0].player.playerName + " of " + currGame.goals[0].team.teamName);
-        
+    for(int i = 0 ; i < theGoal.length; i++) {
+        System.out.println("Goal scored after " + currGame.goals[i].theTime + " mins by " + currGame.goals[i].player.playerName + " of " + currGame.goals[i].team.teamName);
+    }
     }
 }
