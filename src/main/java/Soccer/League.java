@@ -9,21 +9,19 @@ public class League {
         Game[] theGame = createGames(theTeam);
         Game currGame = theGame[0];
 
-        Player player1 = new Player();
-        player1.playerName = "Graham Eliot";
-        Player player2 = new Player();
-        player2.playerName = "Graham Greene";
-        Player player3 = new Player();
-        player3.playerName = "Graham Chaucer";
-
-
-
-        Player[] playerArray = {player1, player2, player3};
-        player1.playerName = "Robert Service";
+//        Player player1 = new Player();
+//        player1.playerName = "Graham Eliot";
+//        Player player2 = new Player();
+//        player2.playerName = "Graham Greene";
+//        Player player3 = new Player();
+//        player3.playerName = "Graham Chaucer";
 //
-//        Player[] thePlayers = {player1, player2, player3};
-
-//        for (Player thePlayer1 : team1.playerArray) {
+//
+//
+//        Player[] playerArray = {player1, player2, player3};
+//        player1.playerName = "Robert Service";
+//
+//        for (Player thePlayer1 : thePlayers.playerArray) {
 //            System.out.println(thePlayer1.playerName);
 //        }
 //        for (Player thePlayer2 : team2.playerArray) {
@@ -44,7 +42,6 @@ public class League {
         goal3.theTime = 45;
 
         Goal[] theGoal = {goal1, goal2, goal3};
-//        System.out.println(theGoal);
         currGame.goals = theGoal;
 
         for (int i = 0; i < theGoal.length; i++) {
@@ -55,7 +52,7 @@ public class League {
         public static Team[] createTeams () {
             Team team1 = new Team();
             team1.teamName = "The Greens";
-            team1.playerArray = new Player[0];
+            team1.playerArray = new Player[3];
             team1.playerArray[0] = new Player();
             team1.playerArray[0].playerName = "Graham Eliot";
             team1.playerArray[1] = new Player();
