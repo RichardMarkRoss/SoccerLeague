@@ -1,5 +1,9 @@
 package Soccer;
 
 public class Player {
-    public String playerName;
+    String playerName;
+    public Player(String playerName){
+        this.playerName = playerName;
+    }
+
 }
