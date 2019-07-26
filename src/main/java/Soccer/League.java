@@ -9,6 +9,8 @@ public class League {
         Game[] theGame = createGames(theTeam);
         Game currGame = theGame[0];
 
+//        int numberOfGoals = (int)(Math.random() * 7);
+
         Goal goal1 = new Goal();
         goal1.player = currGame.awayTeam.playerArray[2];
         goal1.team = currGame.awayTeam;
