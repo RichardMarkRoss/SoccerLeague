@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32d51916-1362-43ce-af97-ba54de413346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library/StoryBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Soccer/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Soccer/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Soccer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Soccer/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Soccer/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Soccer/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Soccer/League.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Soccer/League.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Soccer/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Soccer/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Soccer/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Soccer/Team.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
@@ -54,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/League.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Goal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -85,7 +85,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Soccer/Game.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Soccer/Goal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Soccer/Player.java" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/library/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/library/Run.java" />
         <option value="$PROJECT_DIR$/src/main/java/library/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Soccer/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/Soccer/League.java" />
       </list>
     </option>
@@ -213,7 +213,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21867518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21867518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -310,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/library/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -351,8 +344,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Goal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -365,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
@@ -376,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Soccer/League.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="210">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>

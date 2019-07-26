@@ -24,8 +24,7 @@ public class League {
 
         Goal[] theGoal = {goal1, goal2, goal3};
         currGame.goals = theGoal;
-
-        for (int i = 0; i < theGoal.length; i++) {
+        for (int i = 0; i < currGame.goals.length; i++) {
             System.out.println("Goal scored after " + currGame.goals[i].theTime + " mins by " + currGame.goals[i].player.playerName + " of " + currGame.goals[i].team.teamName);
         }
     }
@@ -47,10 +46,9 @@ public class League {
             return new Team[]{team1, team2};
         }
         public  static Game[] createGames(Team[] theTeams){
-            Game currGame = new Game();
-            currGame.homeTeam = theTeams[0];
-            currGame.awayTeam = theTeams[1];
-            Game[] games = {currGame};
-            return games;
+            Game theGame = new Game(theTeams[0],theTeams[1]);
+            Game theGame2 = new Game(theTeams[0],theTeams[1]);
+            Game[] theGames = {theGame, theGame2};
+            return theGames;
         }
 }
